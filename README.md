@@ -9,6 +9,9 @@ One is to add a new customer. Second is to get the net payable amount after appl
 
  <img width="1042" alt="petclinic-screenshot" src="https://github.com/ATHITHIYAN24/Discount-Application/assets/69898824/874b8edf-a845-4f74-beea-33fdb9820d74">
  <img width="1042" alt="petclinic-screenshot" src="https://github.com/ATHITHIYAN24/Discount-Application/assets/69898824/a0d6deaa-3696-4fc6-972b-3884f38fb2ad">
+ 
+### CodeCoverage Report 
+<img width="1042" alt="petclinic-screenshot" src="https://github.com/ATHITHIYAN24/Discount-Application/assets/69898824/869014ae-0363-4b84-9c35-953b8d6b2feb">
 
 ### Dependencies
 * Java version - 1.8
