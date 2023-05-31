@@ -25,16 +25,16 @@ class DiscountServiceImpl(@Autowired private val userRepository: UserRepository)
     var logger = LoggerFactory.getLogger(DiscountServiceImpl::class.java)
 
     @Value("\${spring.data.discountAmountPerHundredDollar}")
-    var discountAmountPerHundredDollar: Long = 0
+    var discountAmountPerHundredDollar: Long = 5
 
     @Value("\${spring.data.nonGroceryProductDiscountForEmployee}")
-    var nonGroceryProductDiscountForEmployee: Long = 0
+    var nonGroceryProductDiscountForEmployee: Long = 30
 
     @Value("\${spring.data.discountAmountPerHundredDollarForAffiliate}")
-    var discountAmountPerHundredDollarForAffiliate: Long = 0
+    var discountAmountPerHundredDollarForAffiliate: Long = 10
 
     @Value("\${spring.data.discountAmountPerHundredDollarForCustomer}")
-    var discountAmountPerHundredDollarForCustomer: Long = 0
+    var discountAmountPerHundredDollarForCustomer: Long = 5
 
     @Throws(UserNotFoundException::class)
     override fun calculateFinalAmount(purchaseDetails: PurchaseDetails): BigDecimal {
